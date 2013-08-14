@@ -18,7 +18,7 @@
   },
   "main": "lib/fliptop-wrapper.js",
   "scripts": {
-    "test": "mocha -R spec test/*-test.js"
+    "test": "mocha -R spec"
   },
   "dependencies": {
     "request": "~2.26.0"

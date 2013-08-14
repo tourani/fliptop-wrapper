@@ -94,7 +94,7 @@ var services = {
 
     linkedin : {
     	path: '/beta/person?linkedin=http://www.linkedin.com/in/williamhgates&api_key=' + API_KEY,
-    	handle: 'in/williamhgates'
+    	handle: 'williamhgates', 
     	data: {
           "image_url": "http://m3.licdn.com/mpr/pub/image-f4JRAE8W25C_Vi3ZpBu1N0UQhwMVxz4Jf4uoCRnWhY0j197Of4JomvjWhFYJ1SB_ygg3/bill-gates.jpg",
           "name": "Bill Gates",
@@ -121,8 +121,8 @@ for (var key in services) {
   }
 }
 
-function testService (service, key) {
-	describe('fetch by ' + key, function() {
+function testService(service, key) {
+  describe('query ' + key, function() {
     it('returns correct data about the user', function(done) {
       nock(HOST)
         .get(service.path)
