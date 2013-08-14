@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Sanjay Tourani",
+    "email": "tourani@utexas.edu",
+    "url": "http://github.com/tourani"
+  },
+  "name": "fliptop-wrapper",
+  "description": "Fliptop Wrapper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/goodybag/fliptop-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodybag/fliptop-wrapper"
+  },
+  
+  "engines": {
+    "node": ">= v0.8.15"
+  },
+  "main": "lib/fliptop-wrapper.js",
+  "scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  },
+  "dependencies": {
+    "request": "~2.26.0"
+  },
+  "devDependencies": {
+    "mocha": "1.12.0",
+    "nock": "0.22.1"
+  }
+}
