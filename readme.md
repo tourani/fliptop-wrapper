@@ -37,7 +37,7 @@ To make a query, you need to provide the service (email, facebook, linkedIn or t
 ##Example
 To use the included example, do the following:
 
-node example.js API_key
+    node example.js API_key
 
 ****
 
